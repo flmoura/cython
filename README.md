@@ -7,3 +7,22 @@
 * [Source Files and Compilation](https://cython.readthedocs.io/en/latest/src/userguide/source_files_and_compilation.html#compilation)
 
 * [Creating Built Distributions](https://docs.python.org/3/distutils/builtdist.html)
+
+## Build
+```
+./build.sh
+```
+
+## Install
+```
+pip install My_Package_App-<VERSION>-<PLATFORM>.whl
+```
+
+## Testes
+```
+python -m mypkg.main
+```
+
+```
+python test.py
+```
